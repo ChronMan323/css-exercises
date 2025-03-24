@@ -9,6 +9,13 @@ img {
 
 .items{
   display: flex;
+  justify-content: space-between;
+}
+
+.singles{
+  display: flex;
+  flex-direction: column;
+  padding: 52px;
 }
 
 .title {
