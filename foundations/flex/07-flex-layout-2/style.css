@@ -23,6 +23,10 @@ body {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
   
 }
 
@@ -38,7 +42,8 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  display: flex;
+  margin: 10px;
+
 }
 
 .middle {
@@ -50,5 +55,5 @@ flex: 1;
 }
 
 .card-area {
-
+flex-wrap: wrap;
 }
